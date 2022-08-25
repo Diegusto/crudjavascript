@@ -88,5 +88,5 @@ app.delete('/tarefas/:index', (req, res) => {
 
   tarefas.splice(index, 2)
 
-  return res.send()
+  return res.json(tarefas)
 })
